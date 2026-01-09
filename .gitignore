@@ -4,3 +4,11 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# AWS CLI
+aws/
+awscliv2.zip
+
+# OS tools
+*.zip
+
