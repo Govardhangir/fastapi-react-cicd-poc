@@ -1,12 +1,31 @@
+# Core
 fastapi
 uvicorn[standard]
+
+# Database
 sqlalchemy
+sqlmodel
 alembic
-pydantic
+psycopg[binary]
+
+# Security & Auth
 python-jose
+PyJWT
 passlib[bcrypt]
 python-multipart
 email-validator
+
+# Settings & Config
+pydantic
+pydantic-settings
+python-dotenv
+
+# Email
+emails
 jinja2
-psycopg2-binary
+
+# Utils
+requests
+
+# Monitoring
 sentry-sdk
